@@ -38,12 +38,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Global typography: match Dreamix-style (Inter) */
-html, body, button, input, textarea, select {
-  font-family: "Inter", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
 /* Modern Button Styles */
 .button {
@@ -743,26 +737,6 @@ a:focus {
   .more-works-container {
     display: none;
   }
-
-.publication-title {
-  font-weight: 600;
-  letter-spacing: -0.02em;
-}
-
-/* Abstract formatting similar to Dreamix */
-.abstract-text {
-  font-size: 1.05rem;
-  line-height: 1.7;
-  color: #222;
-}
-
-.abstract-text p {
-  text-align: justify;
-  text-justify: inter-word;
-  hyphens: auto;
-  -webkit-hyphens: auto;
-  -ms-hyphens: auto;
-}
   
   .hero, .section {
     animation: none;
@@ -774,6 +748,5 @@ a:focus {
     box-shadow: none !important;
   }
 }
-
 
 
