@@ -344,45 +344,40 @@
 <!-- End paper abstract -->
 
 
-<!-- Image carousel -->
+<!-- Method overview -->
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- TODO: Replace with your research result images -->
-        <img src="static/images/paper_figure_final_vids.svg" alt="Pipeline" loading="lazy"/>
-        <!-- TODO: Replace with description of this result -->
-        <h2 class="subtitle has-text-centered">
-          Overview of LSA, our proposed framework for improving temporal consistency in video generation. LSA introduces a semantic feature consistency loss that enforces alignment between the semantic representations of SVD-generated frames <b>x̂</b> and their corresponding ground-truth frames <b>x</b><sub>0</sub>, specifically within dynamic-object regions defined by ground-truth bounding boxes <b>bb</b><sub>gt</sub>, promoting appearance consistency and temporally stable localization. Semantic features are extracted with DINOv2, while ground-truth bounding boxes provide spatial supervision. Inference stage of SVD fine-tuned with LSA is identical to the original SVD, hence not requiring bounding boxes. Example input frames are from nuScenes.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="Second research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="Third research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
+
+      <h2 class="title is-3 has-text-centered">
+        Method Overview: LSA Framework
       </h2>
+
+      <div class="content has-text-centered">
+        <img
+          src="static/images/paper_figure_final_vids.svg"
+          alt="LSA framework overview"
+          loading="lazy"
+          style="max-width:100%; height:auto;"
+        />
+
+        <p class="subtitle has-text-centered">
+          Overview of LSA, our proposed framework for improving temporal consistency in video generation.
+          LSA introduces a semantic feature consistency loss that enforces alignment between the semantic
+          representations of SVD-generated frames <b>x̂</b> and their corresponding ground-truth frames
+          <b>x</b><sub>0</sub>, specifically within dynamic-object regions defined by ground-truth bounding
+          boxes <b>bb</b><sub>gt</sub>, promoting appearance consistency and temporally stable localization.
+          Semantic features are extracted with DINOv2, while ground-truth bounding boxes provide spatial
+          supervision. The inference stage of SVD fine-tuned with LSA is identical to the original SVD,
+          hence not requiring bounding boxes. Example input frames are from nuScenes.
+        </p>
+
+      </div>
+
     </div>
   </div>
-</div>
-</div>
 </section>
-<!-- End image carousel -->
+<!-- End method overview -->
 
 
 
