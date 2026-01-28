@@ -743,6 +743,22 @@ a:focus {
   .more-works-container {
     display: none;
   }
+
+.publication-title {
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+/* Abstract formatting similar to Dreamix */
+.abstract-text {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #222;
+}
+
+.abstract-text p {
+  text-align: left;     /* Dreamix-like */
+}
   
   .hero, .section {
     animation: none;
