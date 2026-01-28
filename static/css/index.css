@@ -38,6 +38,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Global typography: match Dreamix-style (Inter) */
+html, body, button, input, textarea, select {
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
 /* Modern Button Styles */
 .button {
