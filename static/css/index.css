@@ -67,6 +67,15 @@ body {
   box-shadow: var(--shadow-md);
 }
 
+/* Force sans font for all paper / code buttons */
+.button,
+.button span,
+.external-link,
+.external-link span {
+  font-family: "Google Sans", "Noto Sans", sans-serif !important;
+  letter-spacing: 0.01em;
+}
+
 .footer .icon-link {
     font-size: 25px;
     color: var(--text-secondary);
@@ -116,9 +125,10 @@ body {
 /* Publication Content Styling */
 .publication-title {
     font-family: "Google Sans", "Noto Sans", sans-serif !important;
-    font-weight: 800 !important;
+    font-weight: 700 !important;
+    font-size: 2.6rem !important;
     color: var(--text-primary) !important;
-    margin-bottom: 2rem !important;
+    margin-bottom: 1.15rem !important;
     line-height: 1.1 !important;
 }
 
@@ -148,7 +158,8 @@ body {
 .publication-authors {
     font-family:  "Google Sans", "Noto Sans", sans-serif !important;
     font-weight: 500;
-    margin-bottom: 1.5rem;
+    font-size: 1.05rem;
+    margin-bottom: 0.75rem;
 }
 
 .publication-venue {
