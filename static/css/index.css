@@ -758,6 +758,10 @@ a:focus {
 
 .abstract-text p {
   text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
 }
   
   .hero, .section {
