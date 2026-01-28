@@ -109,13 +109,13 @@ body {
 }
 
 .teaser {
-  font-family: 'Inter', sans-serif;
+  font-family: "Google Sans", "Noto Sans", sans-serif !important;
 }
 
 
 /* Publication Content Styling */
 .publication-title {
-    font-family: 'Inter', sans-serif !important;
+    font-family: "Google Sans", "Noto Sans", sans-serif !important;
     font-weight: 800 !important;
     color: var(--text-primary) !important;
     margin-bottom: 2rem !important;
@@ -146,7 +146,7 @@ body {
 }
 
 .publication-authors {
-    font-family: 'Inter', sans-serif !important;
+    font-family:  "Google Sans", "Noto Sans", sans-serif !important;
     font-weight: 500;
     margin-bottom: 1.5rem;
 }
