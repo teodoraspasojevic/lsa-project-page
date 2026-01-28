@@ -757,7 +757,7 @@ a:focus {
 }
 
 .abstract-text p {
-  text-align: left;     /* Dreamix-like */
+  text-align: justify;
 }
   
   .hero, .section {
