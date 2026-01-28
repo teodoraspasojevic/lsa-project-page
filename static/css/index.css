@@ -112,6 +112,17 @@ body {
   padding: 4rem 1.5rem;
 }
 
+.hero.hero-intro .hero-body{
+  padding-top: 2rem;      /* try 1.5rem–3rem */
+  padding-bottom: 3rem;   /* optional */
+}
+
+/* Captions (subtitle paragraphs) back to Inter everywhere EXCEPT teaser */
+.hero:not(.teaser) .subtitle,
+.hero:not(.teaser) .subtitle * {
+  font-family: 'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif !important;
+}
+
 .teaser .hero-body {
   padding-top: 2rem;
   padding-bottom: 4rem;
@@ -263,6 +274,12 @@ body {
 .publication-body img:hover {
   transform: translateY(-2px);
   box-shadow: var(--shadow-lg);
+}
+
+/* Abstract back to Inter */
+.abstract-text,
+.abstract-text p {
+  font-family: 'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif !important;
 }
 
 .results-carousel {
