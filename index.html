@@ -356,25 +356,30 @@ End More Works Dropdown -->
         Method Overview: LSA Framework
       </h2>
 
-      <div class="content">
+      <!-- Image: full container width, centered -->
+      <div class="has-text-centered">
         <img
           src="static/images/paper_figure_final_vids.svg"
           alt="LSA framework overview"
           loading="lazy"
           style="max-width:100%; height:auto;"
         />
+      </div>
 
-        <p class="content is-justified">
-          Overview of LSA, our proposed framework for improving temporal consistency in video generation.
-          LSA introduces a semantic feature consistency loss that enforces alignment between the semantic
-          representations of SVD-generated frames <b>x̂</b> and their corresponding ground-truth frames
-          <b>x</b><sub>0</sub>, specifically within dynamic-object regions defined by ground-truth bounding
-          boxes <b>bb</b><sub>gt</sub>, promoting appearance consistency and temporally stable localization.
-          Semantic features are extracted with DINOv2, while ground-truth bounding boxes provide spatial
-          supervision. The inference stage of SVD fine-tuned with LSA is identical to the original SVD,
-          hence not requiring bounding boxes. Example input frames are from nuScenes.
-        </p>
-
+      <!-- Text: constrained to one column -->
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <p class="content is-justified">
+            Overview of LSA, our proposed framework for improving temporal consistency in video generation.
+            LSA introduces a semantic feature consistency loss that enforces alignment between the semantic
+            representations of SVD-generated frames <b>x̂</b> and their corresponding ground-truth frames
+            <b>x</b><sub>0</sub>, specifically within dynamic-object regions defined by ground-truth bounding
+            boxes <b>bb</b><sub>gt</sub>, promoting appearance consistency and temporally stable localization.
+            Semantic features are extracted with DINOv2, while ground-truth bounding boxes provide spatial
+            supervision. The inference stage of SVD fine-tuned with LSA is identical to the original SVD,
+            hence not requiring bounding boxes. Example input frames are from nuScenes.
+          </p>
+        </div>
       </div>
 
     </div>
